@@ -6,6 +6,9 @@ if(POLICY CMP0054)
   cmake_policy(SET CMP0054 NEW)
 endif()
 
+# ---[MATIO]
+find_package(MATIO REQUIRED)
+
 # ---[ Caffe project
 project(Caffe C CXX)
 
@@ -66,6 +69,7 @@ configure_file(cmake/Templates/caffe_config.h.in "${PROJECT_BINARY_DIR}/caffe_co
 set(Caffe_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
 include_directories(${Caffe_INCLUDE_DIR} ${PROJECT_BINARY_DIR})
 include_directories(BEFORE src) # This is needed for gtest.
+include_directories(${MATIO_INCLUDE_DIR})
 
 # ---[ Subdirectories
 add_subdirectory(src/gtest)
