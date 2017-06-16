@@ -61,8 +61,8 @@ for i = skipsize+(index-1)*step+1:skipsize+index*step
     switch data_name
         case 'ADE20K'
             rgbPred = colorEncode(imPred, colors);
-            imwrite(imPred,[save_gray_folder img_fn '.png']);
-            imwrite(rgbPred,[save_color_folder img_fn '.png']);
+            imwrite(imPred,[save_gray_folder img_fn '_seg.png']);%'.png']);
+            imwrite(rgbPred,[save_color_folder img_fn '_seg.png']);%'.png']);
         case 'VOC2012'
             imPred = imPred - 1;
             imwrite(imPred,[save_gray_folder img_fn '.png']);

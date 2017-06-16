@@ -6,8 +6,6 @@ if(POLICY CMP0054)
   cmake_policy(SET CMP0054 NEW)
 endif()
 
-# ---[MATIO]
-find_package(MATIO REQUIRED)
 
 # ---[ Caffe project
 project(Caffe C CXX)
@@ -44,6 +42,11 @@ caffe_option(ALLOW_LMDB_NOLOCK "Allow MDB_NOLOCK when reading LMDB files (only i
 
 # ---[ Dependencies
 include(cmake/Dependencies.cmake)
+
+
+# ---[MATIO]
+#find_package(MATIO REQUIRED)
+
 
 # ---[ Flags
 if(UNIX OR APPLE)

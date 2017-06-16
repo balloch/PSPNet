@@ -39,15 +39,21 @@ for i = 1: numel(filesPred)
     	imPred = imPred + 1;
     end
     imAnno(imAnno==255) = 0;
+    
     imPred = imresize(imPred,[size(imAnno,1), size(imAnno,2)],'nearest');
     
     % check image size
     if size(imPred, 3) ~= 1
-        fprintf('Label image [%s] should be a gray-scale image!\n', fileAnno); continue;
+        fprintf('Label image [%s] should be a gray-scale image!\n', fileAnno); continue; % TODO: i think this is a mistake, should be filePred
     end
     if size(imPred, 1)~=size(imAnno, 1) || size(imPred, 2)~=size(imAnno, 2)
         fprintf('Label image [%s] should have the same size as label image! Resizing...\n', fileLab);
         imPred = imresize(imPred, size(imAnno));
+    end
+    
+    % TODO: Temp fixes for rgb vs grayscale issues
+    if (data_name ~= 'cityscapes')
+        imAnno = rgb2gray(imAnno); %pretty much wrong
     end
 
     % compute IoU
