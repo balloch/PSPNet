@@ -1,0 +1,8 @@
+#Ignore model files
+*.caffemodel
+
+#Ignore image data
+*.jpg
+*.jpeg
+*.ppm
+*.png
