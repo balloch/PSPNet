@@ -6,3 +6,16 @@
 *.jpeg
 *.ppm
 *.png
+
+#Ignore cmake stuff (presuming we can even get that to work with
+#any degree of regularity). these lines likely need to be formatted
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
