@@ -1,4 +1,0 @@
-Log file created at: 2017/06/20 03:23:29
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0620 03:23:29.748503 31835 io.cpp:36] Check failed: fd != -1 (-1 vs. -1) File not found: exper/voc12/config/pspnet_resnet101/solver2_trainval_aug.prototxt

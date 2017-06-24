@@ -1,4 +1,0 @@
-Log file created at: 2017/04/27 16:36:50
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0427 16:36:50.143182  4245 data_transformer.cpp:332] Check failed: img_height == seg_height (375 vs. 0) 

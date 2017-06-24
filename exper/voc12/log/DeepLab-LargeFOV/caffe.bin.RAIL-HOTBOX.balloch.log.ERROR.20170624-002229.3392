@@ -1,4 +1,0 @@
-Log file created at: 2017/06/24 00:22:29
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0624 00:22:29.705230  3392 upgrade_proto.cpp:68] Check failed: ReadProtoFromTextFile(param_file, param) Failed to parse NetParameter file: exper/voc12/config/DeepLab-LargeFOV/train_train_aug.prototxt

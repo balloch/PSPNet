@@ -1,4 +1,0 @@
-Log file created at: 2017/06/22 01:29:54
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0622 01:29:54.075101  4442 insert_splits.cpp:35] Unknown bottom blob 'fc_fusion' (layer 'loss', bottom index 0)

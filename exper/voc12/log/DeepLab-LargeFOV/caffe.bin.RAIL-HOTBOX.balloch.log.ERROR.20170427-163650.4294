@@ -1,5 +1,0 @@
-Log file created at: 2017/04/27 16:36:50
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-E0427 16:36:50.668790  4301 io.cpp:76] Could not open or find file exper/voc12/data/labels_aug/2009_003019.png
-F0427 16:36:50.669986  4301 data_transformer.cpp:332] Check failed: img_height == seg_height (402 vs. 0) 

@@ -1,4 +1,0 @@
-Log file created at: 2017/04/27 16:45:21
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0427 16:45:21.223506 23736 data_transformer.cpp:331] Check failed: img_channels == data_channels (1 vs. 3) 

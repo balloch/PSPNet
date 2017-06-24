@@ -1,4 +1,0 @@
-Log file created at: 2017/04/27 19:35:50
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0427 19:35:50.224865  8639 syncedmem.cpp:51] Check failed: error == cudaSuccess (2 vs. 0)  out of memory

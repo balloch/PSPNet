@@ -1,4 +1,0 @@
-Log file created at: 2017/06/20 04:21:34
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0620 04:21:34.450181  2802 concat_layer.cpp:42] Check failed: top_shape[j] == bottom[i]->shape(j) (41 vs. 60) All inputs must have the same shape, except at concat_axis.

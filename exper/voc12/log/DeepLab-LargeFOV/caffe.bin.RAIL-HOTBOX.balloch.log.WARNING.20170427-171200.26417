@@ -1,6 +1,0 @@
-Log file created at: 2017/04/27 17:12:00
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-E0427 17:12:00.501145 26434 io.cpp:76] Could not open or find file exper/voc12/data/images_aug/2007_001901.jpg
-E0427 17:12:00.502477 26434 io.cpp:76] Could not open or find file exper/voc12/data/labels_aug/2007_001901.png
-F0427 17:12:00.502503 26434 data_transformer.cpp:331] Check failed: img_channels == data_channels (1 vs. 3) 

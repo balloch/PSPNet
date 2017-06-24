@@ -1,4 +1,0 @@
-Log file created at: 2017/04/27 17:55:57
-Running on machine: RAIL-HOTBOX
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0427 17:55:57.703570 15277 im2col.cu:68] Check failed: error == cudaSuccess (8 vs. 0)  invalid device function
