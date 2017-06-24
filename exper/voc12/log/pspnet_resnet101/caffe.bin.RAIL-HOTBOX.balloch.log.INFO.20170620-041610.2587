@@ -1,0 +1,22 @@
+Log file created at: 2017/06/20 04:16:10
+Running on machine: RAIL-HOTBOX
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0620 04:16:10.593471  2587 caffe.cpp:185] Using GPUs 0
+I0620 04:16:10.614825  2587 caffe.cpp:190] GPU 0: GeForce GTX 1060 6GB
+I0620 04:16:10.843811  2587 solver.cpp:48] Initializing solver from parameters: 
+train_net: "${EXP}/config/${NET_ID}/train_${TRAIN_SET}.prototxt"
+base_lr: 0.00025
+display: 20
+max_iter: 20000
+lr_policy: "poly"
+power: 0.9
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "exper/voc12/model/pspnet_resnet101/train"
+solver_mode: GPU
+device_id: 0
+average_loss: 20
+iter_size: 10
+I0620 04:16:10.843945  2587 solver.cpp:81] Creating training net from train_net file: ${EXP}/config/${NET_ID}/train_${TRAIN_SET}.prototxt
+F0620 04:16:10.843960  2587 io.cpp:36] Check failed: fd != -1 (-1 vs. -1) File not found: ${EXP}/config/${NET_ID}/train_${TRAIN_SET}.prototxt

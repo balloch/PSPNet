@@ -1,11 +1,21 @@
 #Ignore model files
 *.caffemodel
+*.solverstate
+
+#Ignore binaries
+*.so
+*.o
+*.pyc
 
 #Ignore image data
 *.jpg
 *.jpeg
 *.ppm
 *.png
+
+#ignore log folders
+exper/*/[Ll]ogs/
+
 
 #Ignore cmake stuff (presuming we can even get that to work with
 #any degree of regularity). these lines likely need to be formatted

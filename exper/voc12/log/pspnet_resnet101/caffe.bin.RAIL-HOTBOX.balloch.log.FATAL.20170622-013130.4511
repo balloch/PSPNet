@@ -1,0 +1,4 @@
+Log file created at: 2017/06/22 01:31:30
+Running on machine: RAIL-HOTBOX
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0622 01:31:30.072336  4511 layer.hpp:374] Check failed: ExactNumBottomBlobs() == bottom.size() (2 vs. 1) SoftmaxWithLoss Layer takes 2 bottom blob(s) as input.

@@ -1,0 +1,4 @@
+Log file created at: 2017/06/24 00:11:00
+Running on machine: RAIL-HOTBOX
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0624 00:11:00.569111  2542 softmax_loss_layer.cpp:47] Check failed: outer_num_ * inner_num_ == bottom[1]->count() (447458 vs. 151200) Number of labels must match number of predictions; e.g., if softmax axis == 1 and prediction shape is (N, C, H, W), label count (number of labels) must be N*H*W, with integer values in {0, 1, ..., C-1}.

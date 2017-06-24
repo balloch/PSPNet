@@ -1,0 +1,4 @@
+Log file created at: 2017/06/20 04:20:37
+Running on machine: RAIL-HOTBOX
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0620 04:20:37.056295  2734 upgrade_proto.cpp:68] Check failed: ReadProtoFromTextFile(param_file, param) Failed to parse NetParameter file: exper/voc12/config/pspnet_resnet101/train_train_aug.prototxt

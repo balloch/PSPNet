@@ -1,0 +1,27 @@
+# train_net: "${EXP}/config/${NET_ID}/train_${TRAIN_SET}.prototxt"
+train_net: "exper/voc12/config/pspnet_resnet101/train_train_aug.prototxt"
+
+iter_size: 1
+
+lr_policy: "poly"
+power: 0.9
+base_lr: 2.5e-4
+average_loss: 100
+display: 100
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.0005
+
+#base_lr: 0.001
+#lr_policy: "step"
+#gamma: 0.1
+#stepsize: 50000
+#display: 20
+#average_loss: 100
+#momentum: 0.9
+#weight_decay: 0.0005
+
+snapshot: 10000
+snapshot_prefix: "exper/voc12/model/pspnet_resnet101/train"
+# snapshot_prefix: "${EXP}/model/${NET_ID}/train"
+solver_mode: GPU
